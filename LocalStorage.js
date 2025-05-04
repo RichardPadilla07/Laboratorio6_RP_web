@@ -3,7 +3,7 @@
 
 // LOCAL STORAGE
 
-fetch("https://fakestoreapi.com/products")
+fetch("https://fakestoreapi.com/products") // API falsa utilizada
     .then(r => r.json())
     .then(data => {
         const producto20 = data[19];
