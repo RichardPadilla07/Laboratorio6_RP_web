@@ -3,7 +3,7 @@
 
 // LOCAL STORAGE
 
-fetch("https://fakestoreapi.com/products") // API falsa utilizada
+fetch("https://fakestoreapi.com/products") // API falsa de productos utilizada
     .then(r => r.json())
     .then(data => {
         const producto20 = data[19];
@@ -21,6 +21,6 @@ const guardarLocalStorage = (data) => {
 
 
 
-// Aqui importamos la funcion login de otro archivo
-import login from './Autenticar.js' // importar la funcion login de otro archivo
+// Aqui importamos la funcion login de Autenticar,js
+import login from './Autenticar.js' 
 login("Richard", "9597") 
